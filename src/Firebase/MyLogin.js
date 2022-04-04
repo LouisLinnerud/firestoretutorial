@@ -2,6 +2,7 @@ import { getAuth, GoogleAuthProvider, signInWithPopup } from "firebase/auth";
 import { app } from "./Firebase.js";
 
 function MyLogin() {
+  console.log("login function was called");
   const auth = getAuth(app);
   const provider = new GoogleAuthProvider();
   const signInWithGoogle = () => {

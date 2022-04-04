@@ -11,7 +11,7 @@ function App() {
       <h5>Learning Firestore</h5>
       <MyLogin/>
       <MySignOut/>
-      <GetMessages/>
+      {/* <GetMessages/> */}
       <SendMessages/>
     </div>
   );
